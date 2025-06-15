@@ -222,12 +222,19 @@ h1 {
 }
 
 .rodape {
-        display: grid;
-        grid-template-columns: 10% 90%;
-        align-items: center;
-        background-color: var(--roxao);
+    display: grid;
+    grid-template-columns: 10% 90%;
+    align-items: center;
+    background-color: var(--roxao);
+}
+
+.rodape p {
+    display: flex;
+    justify-content: center;
 }
 
 footer img {
+    display: flex;
     width: 55%;
+    margin: 30px auto;
 }
