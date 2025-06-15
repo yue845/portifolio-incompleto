@@ -29,7 +29,7 @@ header {
     display: flex;
     width: 100%;
     background-color: var(--roxao);
-    padding: 1rem;
+    padding: 25px;
     position: relative;
     justify-content: center;
 }
@@ -67,6 +67,14 @@ header {
 }
 
 .lista-vertical a {
+    position: absolute;
+    background-color: var(--lilas);
+    box-shadow: 0 2px 5px var(--roxinho);
+    min-width: 190px;
+    z-index: 1;
+    top: 100%;
+    border-radius: 5px;
+
     color: var(--preto);
     padding: 0.75rem 1rem;
     text-decoration: none;
@@ -76,7 +84,7 @@ header {
 }
 
 .lista-vertical a:hover {
-    background-color: var(--amarelo-claro);
+    background-color: var(--areia-roxa);
 }
 
 #menu-toggle:checked~.lista-vertical {
