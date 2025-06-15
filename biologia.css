@@ -20,7 +20,7 @@ body {
     height: 100vh;
     box-sizing: border-box;
     background-color: var(--roxinho);
-    color: var(--amarelo-claro);
+    color: var(--roxo);
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -44,10 +44,10 @@ header {
     cursor: pointer;
     font-size: 2rem;
     background: none;
-    background-color: var(--preto);
+    background-color: var(--lilas);
     border: none;
     padding: 1.05rem 1.5rem;
-    color: var(--roxo-claro);
+    color: var(--preto);
 }
 
 #menu-toggle {
@@ -57,8 +57,8 @@ header {
 .lista-vertical {
     display: none;
     position: absolute;
-    background-color: var(--roxo-claro);
-    box-shadow: 0 2px 5px var(--marinho);
+    background-color: var(--preto);
+    box-shadow: 0 2px 5px var(--roxao);
     min-width: 190px;
     z-index: 1;
     left: 1rem;
