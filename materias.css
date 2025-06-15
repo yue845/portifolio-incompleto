@@ -220,3 +220,14 @@ h1 {
     color: var(--roxao);
     margin-bottom: 5px;
 }
+
+.rodape {
+        display: grid;
+        grid-template-columns: 10% 90%;
+        align-items: center;
+        background-color: var(--roxo);
+}
+
+footer img {
+    width: 55%;
+}
