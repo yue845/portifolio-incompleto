@@ -12,19 +12,14 @@
     --preto: #000000;
     --amarelo-claro:#FFF2AF;
     --roxo-claro:#B2A5FF;
-    --marinho: #6f67ac;
+    --roxao: #6f67ac;
     --branco: #FFFFFF;
-    
-    --verde: #99BC85;
-    --azul-claro: #E4EFE7;
-    
-    --marron-claro: #FAF1E6;
 }
 
 body{
     height: 100vh;
     box-sizing: border-box;
-    background-color: var(--areia-roxa);
+    background-color: var(--roxinho);
     color: var(--preto);
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
@@ -33,7 +28,7 @@ body{
 header {
     display: flex; 
     width: 100%;
-    background-color: var(--roxo);
+    background-color: var(--roxao);
     padding: 1rem;
     justify-content: center;
 }
@@ -75,7 +70,7 @@ main {
 }
 
 .disciplina a {
-    color: var(--marinho);
+    color: var(--roxo);
     font-size: 5rem;
     text-decoration: none;
 }
