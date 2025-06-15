@@ -105,11 +105,11 @@ header {
 
 .lista-horizontal a {
     text-decoration: none;
-    color: var(--amarelo-claro);
+    color: var(--roxinho);
 }
 
 .lista-horizontal a:hover {
-    color: var(--preto);
+    color: var(--lilas);
 }
 
 main {
@@ -119,12 +119,12 @@ main {
 
 h1 {
     text-align: center;
-    color: var(--verde);
+    color: var(--roxo);
     margin-bottom: 60px;
     font-size: 4rem;
 }
 
-.biologia-container {
+.materia-container {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -177,7 +177,7 @@ h1 {
 
 .conteudo ul li:hover {
     transform: translateX(10px);
-    color: var(--verde);
+    color: var(--roxo);
 }
 
 .home {
