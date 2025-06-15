@@ -35,19 +35,20 @@ header {
 }
 
 
-.menu-disciplina {
-    width: 20%;
+.menu-disciplina{
+    width: 15%;
     display: inline-block;
 }
 
 .botao-disciplinas {
     cursor: pointer;
-    font-size: 2rem;
+    font-size: 20px;
     background: none;
     background-color: var(--lilas);
     border: none;
-    padding: 1.05rem 1.5rem;
-    color: var(--preto);
+    border-radius: 5px;
+    padding: 15px 12px;
+    color: black;
 }
 
 #menu-toggle {
