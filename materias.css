@@ -20,7 +20,7 @@ body {
     height: 100vh;
     box-sizing: border-box;
     background-color: var(--roxinho);
-    color: var(--roxo);
+    color: var(--preto);
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
 }
