@@ -84,7 +84,7 @@ header {
 }
 
 #menu-toggle:checked+.botao-disciplinas {
-    background-color: var(--amarelo-claro);
+    background-color: var(--roxinho);
 }
 
 .links-principais {
