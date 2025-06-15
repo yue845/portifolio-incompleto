@@ -190,17 +190,6 @@ h1 {
     color: var(--roxo);
 }
 
-.conteudo ul li .block {
-    display: none;
-}
-
-.conteudo ul li:hover .block {
-    display: block;
-    text-align: justify;
-    color: var(--roxao);
-    margin-bottom: 5px;
-}
-
 .opacidade {
     display: block;
     opacity: 0;
@@ -217,7 +206,7 @@ h1 {
     opacity: 1;
     max-height: 320px;
     text-align: justify;
-    color: var(--lilas);
+    color: var(--roxao);
     margin-bottom: 5px;
 }
 
