@@ -40,7 +40,7 @@ header {
 
 .portfolio h1{
     font-size: 4rem;
-    color: var(--marinho);
+    color: var(--amarelo-claro);
 }
 main {
     margin: 40px auto;
@@ -75,7 +75,7 @@ main {
 }
 
 .disciplina a {
-    color: var(--roxo-claro);
+    color: var(--marinho);
     font-size: 5rem;
     text-decoration: none;
 }
