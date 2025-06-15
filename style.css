@@ -24,7 +24,7 @@
 body{
     height: 100vh;
     box-sizing: border-box;
-    background-color: var(--roxinho);
+    background-color: var(--areia-roxa);
     color: var(--preto);
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
@@ -40,7 +40,7 @@ header {
 
 .portfolio h1{
     font-size: 4rem;
-    color: var(--amarelo-claro);
+    color: var(--marinho);
 }
 main {
     margin: 40px auto;
@@ -60,7 +60,7 @@ main {
 .disciplina {
     display: flex;
     justify-content: center;
-    background-color: var(--areia-roxa);
+    background-color: var(--lilas);
     border-radius: 10px;
     padding: 30px;
     width: 80%;
