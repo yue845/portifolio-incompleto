@@ -151,7 +151,7 @@ h1 {
 .conteudo h2 {
     display: flex;
     justify-content: center;
-    color: var(--verde);
+    color: var(--roxo-claro);
     margin-bottom: 15px;
     font-size: 2.8rem;
 }
@@ -170,7 +170,7 @@ h1 {
 
 .conteudo ul li {
     padding: 10px 0;
-    border-bottom: 1px solid var(--azul-claro);
+    border-bottom: 1px solid var(--areia-roxa);
     transition: transform 0.5s ease;
     color: var(--preto);
 }
@@ -187,7 +187,7 @@ h1 {
 
 .home a {
     font-size: 2rem;
-    color: var(--verde);
+    color: var(--roxo);
 }
 
 .conteudo ul li .block {
@@ -197,7 +197,7 @@ h1 {
 .conteudo ul li:hover .block {
     display: block;
     text-align: justify;
-    color: var(--marinho);
+    color: var(--roxao);
     margin-bottom: 5px;
 }
 
@@ -207,7 +207,7 @@ h1 {
     max-height: 0;
     overflow: hidden;
     transition: opacity 1.5s ease, max-height 1.5s ease;
-    color: var(--marinho);
+    color: var(--roxao);
     text-align: justify;
     margin: 0;
     padding: 0;
@@ -217,6 +217,6 @@ h1 {
     opacity: 1;
     max-height: 320px;
     text-align: justify;
-    color: var(--marinho);
+    color: var(--roxao);
     margin-bottom: 5px;
 }
