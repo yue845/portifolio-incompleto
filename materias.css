@@ -225,7 +225,7 @@ h1 {
         display: grid;
         grid-template-columns: 10% 90%;
         align-items: center;
-        background-color: var(--roxo);
+        background-color: var(--roxao);
 }
 
 footer img {
