@@ -58,22 +58,21 @@ header {
 .lista-vertical {
     display: none;
     position: absolute;
-    background-color: var(--preto);
-    box-shadow: 0 2px 5px var(--roxao);
-    min-width: 190px;
-    z-index: 1;
-    left: 1rem;
-    top: 100%;
-}
-
-.lista-vertical a {
-    position: absolute;
     background-color: var(--lilas);
     box-shadow: 0 2px 5px var(--roxinho);
     min-width: 190px;
     z-index: 1;
     top: 100%;
     border-radius: 5px;
+}
+
+.lista-vertical a {
+    color: var(--preto);
+    padding: 0.75rem 1rem;
+    text-decoration: none;
+    font-size: 2rem;
+    display: block;
+    text-align: center;
 }
 
 .lista-vertical a:hover {
