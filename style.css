@@ -5,20 +5,26 @@
 }
 
 :root{
+    --roxo: #A294F9;
+    --lilas: #CDC1FF;
+    --areia-roxa: #E5D9F2;
+    --roxinho: #F5EFFF;
     --preto: #000000;
-    --marinho: #493D9E;
     --amarelo-claro:#FFF2AF;
     --roxo-claro:#B2A5FF;
+    --marinho: #493D9E;
+    --branco: #FFFFFF;
+    
     --verde: #99BC85;
     --azul-claro: #E4EFE7;
-    --branco: #FFFFFF;
+    
     --marron-claro: #FAF1E6;
 }
 
 body{
     height: 100vh;
     box-sizing: border-box;
-    background-color: var(--azul-claro);
+    background-color: var(--roxinho);
     color: var(--preto);
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
@@ -27,7 +33,7 @@ body{
 header {
     display: flex; 
     width: 100%;
-    background-color: var(--marinho);
+    background-color: var(--roxo);
     padding: 1rem;
     justify-content: center;
 }
@@ -54,7 +60,7 @@ main {
 .disciplina {
     display: flex;
     justify-content: center;
-    background-color: var(--branco);
+    background-color: var(--areia-roxa);
     border-radius: 10px;
     padding: 30px;
     width: 80%;
@@ -69,7 +75,7 @@ main {
 }
 
 .disciplina a {
-    color: var(--verde);
+    color: var(--roxo-claro);
     font-size: 5rem;
     text-decoration: none;
 }
