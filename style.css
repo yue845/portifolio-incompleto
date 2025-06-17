@@ -82,7 +82,7 @@ main {
     background-color: var(--roxao);
 }
 
-.rodape p {
+.rodape h3 {
     display: flex;
     justify-content: center;
 }
